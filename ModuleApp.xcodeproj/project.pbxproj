@@ -54,6 +54,7 @@
 		4B771EBA205A3DC900670223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B771EC7205A3E0600670223 /* StarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRateView.h; sourceTree = "<group>"; };
 		4B771EC8205A3E0600670223 /* StarRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRateView.m; sourceTree = "<group>"; };
+		4BFF7D81205BBF3300F9D655 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +150,7 @@
 			children = (
 				4B771EC7205A3E0600670223 /* StarRateView.h */,
 				4B771EC8205A3E0600670223 /* StarRateView.m */,
+				4BFF7D81205BBF3300F9D655 /* PrefixHeader.pch */,
 			);
 			path = StartView;
 			sourceTree = "<group>";
@@ -523,6 +525,7 @@
 				4B771EBF205A3DC900670223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B771EC0205A3DC900670223 /* Build configuration list for PBXNativeTarget "ModuleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +534,7 @@
 				4B771EC2205A3DC900670223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B771EC3205A3DC900670223 /* Build configuration list for PBXNativeTarget "ModuleAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +543,7 @@
 				4B771EC5205A3DC900670223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
